@@ -15,7 +15,7 @@ import (
 
 type Cli struct {
 	File         string      `arg:"positional,required" help:"markdown file path"`
-	Format       PrintFormat `arg:"-f,--format" help:"frontmatter output format (possible values: 'yaml', 'json')" default:"yaml"`
+	Format       PrintFormat `arg:"-f,--format" help:"frontmatter output format (possible values: 'yaml', 'json')" default:"json"`
 	PrintContent bool        `arg:"-c,--content" help:"only print content of the file"`
 }
 
