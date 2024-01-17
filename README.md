@@ -15,6 +15,8 @@ Options:
   --help, -h             display this help and exit
 ```
 
+`frontmatter` wouldn't be possible without [`adrg/frontmatter`](https://github.com/adrg/frontmatter) library. Consider showing them some love by starring their repository.
+
 ## Installation
 
 ```console
