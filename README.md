@@ -36,3 +36,7 @@ frontmatter -c ./test.md
 ### Why are you using [`json-iterator/go`](https://github.com/json-iterator/go) instead of [`encoding/json`](https://pkg.go.dev/encoding/json)
 
 Because apperantly `encoding/json` doesn't not support `map[interface {}]interface {}` type.
+
+## License
+
+This project is licensed under [MIT License](https://opensource.org/license/mit/). See [LICENSE](./LICENSE) for more details.
