@@ -1,6 +1,6 @@
 # Frontmatter
 
-`frontmatter` is simple tool for working with markdown frontmatter in the command-line.
+`frontmatter` is a simple command-line utility for working with markdown frontmatter.
 
 ```
 Usage: frontmatter [--format FORMAT] [--content] FILE
@@ -37,7 +37,7 @@ frontmatter -c ./test.md
 
 ### Why are you using [`json-iterator/go`](https://github.com/json-iterator/go) instead of [`encoding/json`](https://pkg.go.dev/encoding/json)
 
-Because apperantly `encoding/json` doesn't not support `map[interface {}]interface {}` type.
+Because apperantly `encoding/json` doesn't not support unmarshalling to `map[interface {}]interface {}` type.
 
 ## License
 
